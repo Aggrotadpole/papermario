@@ -148,4 +148,6 @@ ScriptInstance* get_script_by_index(s32 index);
 void suspend_all_group(s32 groupFlags);
 void kill_script(ScriptInstance* instanceToKill);
 
+void func_80071210(s32, f32, f32, f32, f32, s32);
+
 #endif

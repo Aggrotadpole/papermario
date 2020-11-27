@@ -10,7 +10,10 @@ INCLUDE_ASM(s32, "code_18C790", func_8025E044);
 
 INCLUDE_ASM(s32, "code_18C790", func_8025E108);
 
-INCLUDE_ASM(s32, "code_18C790", func_8025E14C);
+ApiStatus func_8025E14C(void) {
+    func_80071210(3, 0.0f, 100.0f, 0, 1.0f, 0x78);
+    return ApiStatus_DONE2;
+}
 
 INCLUDE_ASM(s32, "code_18C790", func_8025E190);
 
