@@ -9,6 +9,7 @@ INCLUDE_ASM(s32, "code_107830_len_e70", func_802E6118);
 void func_802E6178(void) {
     enable_player_input();
 }
+
 void func_802E6194(void) {
 }
 

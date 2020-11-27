@@ -215,7 +215,6 @@ INCLUDE_ASM(s32, "code_e0b30_len_b80", func_8014AC94);
 
 INCLUDE_ASM(s32, "code_e0b30_len_b80", func_8014AD40);
 
-//INCLUDE_ASM(s32, "code_e0b30_len_b80", func_8014ADA4);
 void func_8014ADA4(void) {
     MusicPlayer* musicPlayer = &gMusicPlayers[0];
 
@@ -224,6 +223,7 @@ void func_8014ADA4(void) {
         _set_music_track(0, musicPlayer->unk_24, musicPlayer->unk_28, 0, 8);
     }
 }
+
 INCLUDE_ASM(s32, "code_e0b30_len_b80", func_8014ADF8);
 
 INCLUDE_ASM(s32, "code_e0b30_len_b80", func_8014AE6C);
